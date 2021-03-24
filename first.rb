@@ -46,3 +46,21 @@ def get_day_name(day)
 end
 
 puts get_day_name("mon")
+
+# while loop
+index=1
+while index <= 5
+  puts index
+  index += 1
+end
+
+# for loop
+names =["Kevin", "Jack","Oscar","Andy"]
+=begin
+for friend in names
+  puts friend
+end
+=end
+names.each do|friend|
+  puts friend
+end 
